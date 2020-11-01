@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNumber">
+        <TextView
+            android:id="@+id/Numbers"
+            style="@style/Category_style"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/numbers" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFamily">
+        <TextView
+            android:id="@+id/FamilyMembers"
+            style="@style/Category_style"
+            android:text="@string/family_members"
+            android:background="?android:attr/selectableItemBackground"
+        />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorColor">
+    <TextView
+        style="@style/Category_style"
+        android:id="@+id/Colors"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/colors"
+        />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPhrase">
+    <TextView
+        android:id="@+id/Phrases"
+        style="@style/Category_style"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/phrases"
+        />
+    </FrameLayout>
+
+</LinearLayout>
+
+
+
+    
